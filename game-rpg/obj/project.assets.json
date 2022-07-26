@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": []
+  },
+  "packageFolders": {
+    "/home/aloisio/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/aloisio/project/dio-bootcamp-geracao-tech-unimed-bh-fullstack-2022/dio-desafio-unimed-csharp-gamerpg-2022/game-rpg/game-rpg.csproj",
+      "projectName": "game-rpg",
+      "projectPath": "/home/aloisio/project/dio-bootcamp-geracao-tech-unimed-bh-fullstack-2022/dio-desafio-unimed-csharp-gamerpg-2022/game-rpg/game-rpg.csproj",
+      "packagesPath": "/home/aloisio/.nuget/packages/",
+      "outputPath": "/home/aloisio/project/dio-bootcamp-geracao-tech-unimed-bh-fullstack-2022/dio-desafio-unimed-csharp-gamerpg-2022/game-rpg/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/aloisio/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
