@@ -1,11 +1,21 @@
-﻿    Knight arus = new Knight("Arus", 23, "Knight");
+﻿    Knight arus = new Knight("Arus", 23, "Knight", 20, 57);
 	Wizard jennica = new Wizard("Jennica", 23, "White Wizard");
     Ninja wedge = new Ninja("Wedge", 25, "Ninja");
-    Wizard topapa = new Wizard("Topapa", 27, "Black Wizard");
+    Wizard topapa = new Wizard("Topapa", 27, "Black Wizard", 150, 210);
 
-	Console.WriteLine(arus.Attack()); 
+    Console.WriteLine(arus);
+    Console.WriteLine("--------------");
+	Console.WriteLine(arus.Attack());
+    arus.UpdateStatusHero(5,8,true);
+    Console.WriteLine(arus);
+    Console.WriteLine("--------------");
 	Console.WriteLine(wedge.Attack());
+    Console.WriteLine("--------------");
 	Console.WriteLine(jennica.Attack(1));
 	Console.WriteLine(jennica.Attack(7));
+    Console.WriteLine("--------------");
+    Console.WriteLine(topapa);
     Console.WriteLine(topapa.Attack(3));
+    topapa.UpdateStatusHero(3,2,false);
+    Console.WriteLine(topapa);
     Console.ResetColor();

@@ -5,6 +5,9 @@ public class Wizard : Hero {
 		this.HeroType = HeroType;
 	}
 
+	public Wizard(string Name, int Level, string HeroType, int HP, int MP) : base (Name, Level, HeroType, HP, MP){
+	}
+
     //Sobrescrevendo o método Attack
 	public override string Attack(){
 		Console.ForegroundColor = ConsoleColor.DarkYellow;
